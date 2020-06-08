@@ -17,7 +17,7 @@ public class createpage extends HttpServlet {
 		try
 		{
 			Class.forName("org.postgresql.Driver");
-			String jdbcUrl="jdbc:postgresql://54.169.226.137:5432/postgres";
+			String jdbcUrl="jdbc:postgresql://3.19.120.194:5432/postgres";
 			String username="postgres";
 			String password="";
 		
